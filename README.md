@@ -1,7 +1,21 @@
-# Vue 3 + Vite
+Come strutturare la consegna
+1. Inizializziamo la repo con git e github come sempre.
+2. Aggiungiamo al suo interno un nuovo progetto Vue 3 con Vite
+3. Eseguiamo npm install
+4. Modifichiamo il file readme.md  e scomponiamo il problema in passaggi semplici descritti in italiano. Poi facciamo commit e push.
+5. Procediamo a svolgere l'esercizio facendo un adeguato numero di commit e push. 
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Descrizione:
+Create un nuovo progetto utilizzando Vite: aiutatevi con le slide per ripercorrere i vari passaggi dell'installazione come visti a lezione.
+Create e utilizzate un componente AppTitle, il quale contiene un titolo che recita "La mia prima app con Vite!"
 
-## Recommended IDE Setup
+Bonus:
+Creare un secondo componente AppHero, che visualizza un jumbotron. 
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+>cancello il componente preimpostato e svuoto app.vue
+>creo il nuovo componente AppTitle.vue
+>nell'html inserisco un h1 con un titolo che recita "La mia prima app con Vite!"
+>importo il componente in App.vue
+    >importo nello script 
+    >inserisco nella lista dei componenti
+    >lo inserisco nel template come un self-closing tag
